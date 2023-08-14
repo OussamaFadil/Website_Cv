@@ -1,0 +1,304 @@
+body {
+	font-size: 16px;
+	color: darkred;
+	background-color: skyblue;
+	font-family: 'Roboto', sans-serif;
+	counter-reset: section;
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand a {
+	color: skyblue;
+	font-family: 'Roboto', serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;	
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 0;
+}
+
+#Experience-icon {
+	background-color: white;
+	font-family: 'monospace', sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#Experience-icon a {
+	color: skyblue;
+}
+#Experience-icon a:hover, a:active {
+	background-color: skyblue;
+	color: white;
+}
+
+#Formation-icon {
+	background-color: white;
+	font-family: 'monospace', sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#Formation-icon a {
+	color: skyblue;
+}
+#Formation-icon a:hover, a:active {
+	background-color: skyblue;
+	color: white;
+}
+
+#Skills-icon {
+	background-color: white;
+	font-family: 'monospace', sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#Skills-icon a {
+	color: skyblue;
+}
+#Skills-icon a:hover, a:active {
+	color: white;
+	background-color: skyblue;
+}
+
+#Contact-icon {
+	background-color: white;
+	font-family: 'monospace', sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#Contact-icon a {
+	color: skyblue;
+}
+#Contact-icon a:hover, a:active {
+	background-color: skyblue;
+	color: white;
+}
+
+/* END HEADER */
+
+/** Contenent Of Page **/
+.information {
+	background-color: white;
+	position: relative;
+}
+.information h3 {
+	color: skyblue;
+	text-align: center;
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	font-size: 2em;
+	text-shadow: 2px 2px skyblue;
+	/**width: 100%;
+	height: 100%;**/
+}
+.information h4 {
+	color: skyblue;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 25px;
+	font-size: 1.6em;
+}
+
+.Experience h1 {
+	color: skyblue;
+	background-color: white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.Experience h1:hover, h1:active {
+	color: white;
+	background-color: skyblue;
+}
+.Experience h2 {
+	color: white;
+	text-align: center;
+	border-right: 5px double white;	
+	border-left: 5px double white;
+	border-top: 5px double white;	
+}
+.Experience p {
+	color: white;
+	text-align: center;
+	border-bottom: 5px double white;
+	border-right: 5px double white;
+	border-left: 5px double white;	
+}
+.Experience h2::before {
+  	counter-increment: section;
+  	content: counter(section) ": ";
+  	color: white;
+}
+
+
+
+.Formation h1 {
+	color: skyblue;
+	background-color: white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.Formation h1:hover, h1:active {
+	color: white;
+	background-color: skyblue;
+}
+.Formation h2 {
+	color: white;
+	font-family: 'monospace', sans-serif;
+	text-align: center;
+	border-right: 5px double white;	
+	border-left: 5px double white;
+	border-top: 5px double white;
+	border-bottom: 5px double white;	
+}
+.Formation h2:hover, h2:active {
+	color: skyblue;
+	background-color: white;
+	border-right: 5px double skyblue;	
+	border-left: 5px double skyblue;
+	border-top: 5px double skyblue;
+	border-bottom: 5px double skyblue;
+}
+.Formation p {
+	color: white;
+	text-align: center;
+	border-bottom: 5px double white;
+	border-right: 5px double white;
+	border-left: 5px double white;
+}	
+
+section {
+	border:	5px double white;
+	width: 100%;
+	height: auto;
+	font-family: 'monospace';
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#Education h3 {
+	color: white;
+	text-align: center;
+}
+#Education p {
+	color: skyblue;
+	font-weight: bold;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#Courses h3{
+	color: white;
+	text-align: center;
+}
+#Courses p {
+	color: skyblue;
+	font-weight: bold;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.Skills h1 {
+	color: skyblue;
+	background-color: white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.Skills h1:hover, h1:active {
+	color: white;
+	background-color: skyblue;
+}
+
+.Skills h2 {
+	color: white;
+	height: auto;
+	font-family: 'monospace', sans-serif;
+	text-align: center;
+	border-right: 5px double white;	
+	border-left: 5px double white;
+	border-top: 5px double white;
+	border-bottom: 5px double white;	
+}
+.Skills h2:hover, h2:active {
+	color: skyblue;
+	background-color: white;
+	border-right: 5px double skyblue;	
+	border-left: 5px double skyblue;
+	border-top: 5px double skyblue;
+	border-bottom: 5px double skyblue;
+}
+.Skills h3 {
+	color: white;
+	text-align: left;
+	font-family: 'monospace;';
+}
+.Contact h1 {
+	color: skyblue;
+	background-color: white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	text-align: center;
+	font-family: 'Roboto';
+}
+.Contact h1:hover, h1:active {
+	color: white;
+	background-color: skyblue;
+}
+.Contact_Categories {
+	background-color: white;
+}
+
+.panel-footer {
+	background-color: skyblue;
+	color: white;
+}
+/****** Large devices only ******/
+@media (min-width: 1200px) {
+
+}
+
+/***** Medium devices only ******/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/****** Small devices only ******/
+@media (min-width: 768px) and (max-width: 991px){
+.navbar-brand a {
+	color: skyblue;
+	font-family: 'Roboto', serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;	
+	text-decoration: none;
+}
+}
+
+/****** Extra small devices only ******/
+@media (max-width:767px){
+
+}
